@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "build": "babel src --out-dir ./"
+    "build": "cp src/*.js ./",
+    "clean": "for f in src/*.js; do rm ${f#*/} 2>/dev/null; done",
+    "prepublish": "npm run test && npm run build",
+    "postpublish": "npm run clean"
   },
   "author": "Frankie Bagnardi <f.bagnardi@gmail.com>",
   "license": "MIT"
