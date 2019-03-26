@@ -11,5 +11,13 @@
     "postpublish": "npm run clean"
   },
   "author": "Frankie Bagnardi <f.bagnardi@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brigand/renderhook.git"
+  },
+  "bugs": {
+    "url": "https://github.com/brigand/renderhook/issues"
+  },
+  "homepage": "https://github.com/brigand/renderhook#readme"
 }
