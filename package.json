@@ -1,0 +1,12 @@
+{
+  "name": "renderhook",
+  "version": "0.1.0",
+  "description": "renderhook is a macro that allows hooks to transform or wrap what your component returns",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "babel src --out-dir ./"
+  },
+  "author": "Frankie Bagnardi <f.bagnardi@gmail.com>",
+  "license": "MIT"
+}
